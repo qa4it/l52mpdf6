@@ -1,21 +1,21 @@
 {
-  name: "qa4it/l52mpdf6",
-  description: "mPDF wrapper for Laravel 5.2",
+  "name": "qa4it/l52mpdf6",
+  "description": "mPDF wrapper for Laravel 5.2",
   "Version": "0.1.0",
-  keywords: ["laravel", "mpdf", "pdf"],
-  authors: [
+  "keywords": ["laravel", "mpdf", "pdf"],
+  "authors": [
     {
-      name: "mek",
-      email: "github@qa4it.com"
+      "name": "mek",
+      "email": "github@qa4it.com"
     }
   ],
-  require: {
-    php: ">=5.4.0",
-    illuminate/support: "5.x",
-    mpdf/mpdf: "6.*"
+  "require": {
+    "php": ">=5.4.0",
+    "illuminate/support": "5.x",
+    "mpdf/mpdf": "6.*"
   },
-  autoload: {
-    psr-4: {
+  "autoload": {
+    "psr-4": {
       "Qa4it\\Mpdf": "src/"
     }
   },
